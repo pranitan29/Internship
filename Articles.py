@@ -35,8 +35,8 @@ soup
 scraped_titles= soup.find_all(class_='sc-5smygv-0 fIXTHm')
 scraped_titles
 
-
 # In[31]:
+
 
 
 titles=[]
@@ -52,7 +52,6 @@ titles
 scraped_authors= soup.find_all(class_='sc-1w3fpd7-0 dnCnAO')
 scraped_authors
 
-
 # In[33]:
 
 
@@ -67,6 +66,7 @@ authors
 
 scraped_publish= soup.find_all(class_='sc-1thf9ly-2 dvggWt')
 scraped_publish
+
 
 
 # In[35]:
